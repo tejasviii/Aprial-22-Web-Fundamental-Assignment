@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Form_input</title>
+    </head>
+    <body>
+        <div>
+            <h2>Fill The Form.</h2>
+            <form>
+                <div>
+                    <label>User Name</label>
+                    <input placeholder="Enter name"/>
+                </div>
+                <br/>
+                <div>
+                    <label>Password</label>
+                    <input type="password" placeholder="Enter Password"/>
+                </div>
+                <br/>
+                <div>
+                    <label>Today's Date</label>
+                    <input type="date" />
+                </div>
+                <br/>
+                <div>
+                    <label>Colour</label>
+                    <input type="color"/>
+                </div>
+                <br/>
+                <div>
+                    <label>radio</label>
+                    <input type="radio"/>
+                </div><br/>
+                <div>
+                    <label>check</label>
+                    <input type="checkbox"/>
+                </div><br/>
+                <div>
+                    <label>Enter Father's Name</label>
+                    <input type="text" value="Mr."/>
+                </div><br/>
+                <div>
+                    <label>Enter Your Mobile Number</label>
+                    <input type="text"value="+91 " maxlength="14" size="20"/>
+                </div><br/>
+                <div>
+                    <label>Enter OTP</label>
+                    <input type="text" placeholder="Enter OTP" maxlength="6"/>
+                </div><br/>
+                <div>
+                    <label>Disable</label>
+                    <input type="text" value="Geekster1.1" disabled/>
+                </div><br/>
+                <div>
+                    <label>ReadOnly</label>
+                    <input type="text" value="Geekster1.2" readonly/>
+                </div><br/>
+                <div>
+                    <label>What Do You Want to Learn</label>
+                    <input type="text" list="DL"/>
+                    <datalist id="DL">
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>HTML & CSS</option>
+                        <option>JavaScript Only</option>
+                        <option>HTML,CSS & JavaScript</option>
+                    </datalist>
+                </div>
+
+            </form>
+        </div>
+    </body>
+</html>
